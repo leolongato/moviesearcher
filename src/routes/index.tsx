@@ -1,5 +1,7 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
+
+import SearchContext from '../SearchContext';
 
 import Home from '../pages/Home';
 import Details from '../pages/Details';
@@ -13,7 +15,7 @@ const SearchRoutes: React.FC = () => (
             headerShown: true,
             headerTransparent: true,
             headerTitle: '',
-            headerTintColor: '#D8D5DB',            
+            headerTintColor: '#D8D5DB',
             cardStyle: { backgroundColor: '#2D3142' },
         }}
     >

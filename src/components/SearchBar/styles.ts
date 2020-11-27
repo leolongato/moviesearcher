@@ -10,7 +10,7 @@ export const Container = styled.View`
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 10px;
+  margin: 10px 8px;
 `;
 
 export const SearchContainer = styled.View<SearchContainerProps>`
@@ -22,7 +22,6 @@ export const SearchContainer = styled.View<SearchContainerProps>`
   text-align: center;
   padding: 0 10px;
   border-radius: 5px;
-
 `;
 
 export const UserInput = styled.TextInput`
